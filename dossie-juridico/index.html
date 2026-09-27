@@ -16,7 +16,8 @@ html,body{margin:0;background:#132238;color:#fff;font-family:system-ui,-apple-sy
 <script>
 (async()=>{
   try{
-    const files=['/payload/01.txt','/payload/02.txt','/payload/03.txt','/payload/04.txt'];
+    const base='https://raw.githubusercontent.com/nicholaspiccoli/acao-fabio-linha-historica-fatos/main/payload/';
+    const files=[base+'01.txt',base+'02.txt',base+'03.txt',base+'04.txt'];
     const b64=(await Promise.all(files.map(f=>fetch(f,{cache:'no-store'}).then(r=>{
       if(!r.ok) throw new Error(f+' '+r.status);
       return r.text();
