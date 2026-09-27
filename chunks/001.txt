@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Dossiê Jurídico — Fábio Regis de Carvalho × Premium</title>
+<meta name="description" content="Auditoria jurídica documental, processual, consumerista e ético-profissional do caso Fábio Regis de Carvalho × Premium, com análise do processo 5015965-98.2026.4.04.7201/SC.">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#F4F0E8; --paper:#FFFCF7; --paper2:#ECE6DB; --ink:#111827; --muted:#667085;
+  --navy:#132238; --navy2:#1B3150; --gold:#B89557; --burg:#A23A3A; --green:#2D6A4F;
+  --amber:#A76B16; --border:#D8D0C4; --white:#fff;
+  --shadow-sm:0 1px 3px rgba(17,24,39,.08);
+  --shadow-md:0 12px 38px rgba(17,24,39,.10);
+  --shadow-lg:0 32px 90px rgba(17,24,39,.17);
+  --radius:20px; --radius-sm:12px;
+}
+html[data-theme="dark"] {
+  --bg:#0D141E; --paper:#121C29; --paper2:#182434; --ink:#EDF2F7; --muted:#AEB9C7;
+  --navy:#E6EDF6; --navy2:#C9D7EA; --gold:#D5B574; --burg:#E37A7A; --green:#6EC7A2;
+  --amber:#E1AF62; --border:#2A3A4D; --white:#0D141E;
+  --shadow-sm:0 1px 3px rgba(0,0,0,.22);
+  --shadow-md:0 12px 38px rgba(0,0,0,.28);
+  --shadow-lg:0 32px 90px rgba(0,0,0,.40);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0; font-family:Inter,system-ui,-apple-system,sans-serif; color:var(--ink); background:var(--bg);
+  line-height:1.68; -webkit-font-smoothing:antialiased;
+}
+::selection { background:rgba(184,149,87,.28); }
+a { color:inherit; }
+button { font:inherit; }
+.topbar {
+  position:sticky; top:0; z-index:60; backdrop-filter:blur(18px);
+  background:color-mix(in srgb, var(--bg) 82%, transparent); border-bottom:1px solid color-mix(in srgb,var(--border) 72%,transparent);
+}
+.topbar-inner {
+  max-width:1500px; margin:auto; height:64px; padding:0 26px; display:flex; align-items:center; justify-content:space-between; gap:20px;
+}
+.brand { display:flex; align-items:center; gap:12px; font-weight:700; letter-spacing:-.02em; }
+.brand-mark {
+  width:34px; height:34px; border-radius:10px; background:var(--navy); color:var(--white); display:grid; place-items:center;
+  box-shadow:var(--shadow-sm); font-family:"Instrument Serif",serif; font-size:21px;
+}
+.top-actions { display:flex; gap:8px; }
+.icon-btn {
+  border:1px solid var(--border); background:var(--paper); color:var(--ink); border-radius:11px; height:38px; min-width:38px;
+  padding:0 12px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;
+}
+.icon-btn:hover { transform:translateY(-1px); box-shadow:var(--shadow-sm); }
+.layout { max-width:1500px; margin:auto; display:grid; grid-template-columns:250px minmax(0,1fr); gap:38px; padding:32px 26px 100px; }
+.sidebar {
+  position:sticky; top:92px; height:calc(100vh - 120px); overflow:auto; padding-right:10px;
+}
+.sidebar .eyebrow { font:600 11px/1.3 "Geist Mono",monospace; letter-spacing:.12em; color:var(--muted); margin-bottom:13px; }
+.nav { display:grid; gap:4px; }
+.nav a {
+  text-decoration:none; padding:9px 12px; border-radius:10px; color:var(--muted); font-size:14px; transition:.2s ease;
+}
+.nav a:hover,.nav a.active { background:var(--paper); color:var(--ink); box-shadow:var(--shadow-sm); }
+.side-card { margin-top:22px; padding:15px; border:1px solid var(--border); border-radius:14px; background:var(--paper); }
+.side-card strong { display:block; font:600 11px "Geist Mono",monospace; letter-spacing:.08em; margin-bottom:8px; }
+.side-card p { margin:0; color:var(--muted); font-size:12px; }
+main { min-width:0; }
+.hero {
+  position:relative; overflow:hidden; min-height:560px; border-radius:30px; background:var(--navy); color:var(--white);
+  padding:64px; box-shadow:var(--shadow-lg); display:flex; flex-direction:column; justify-content:space-between;
+}
+.hero:before {
+  content:""; position:absolute; width:680px; height:680px; border-radius:50%; right:-220px; top:-260px;
+  background:radial-gradient(circle,rgba(184,149,87,.32),rgba(184,149,87,0) 67%);
+}
+.hero:after {
+  content:""; position:absolute; inset:0; opacity:.13;
+  background-image:linear-gradient(rgba(255,255,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.12) 1px,transparent 1px);
+  background-size:56px 56px; mask-image:linear-gradient(to bottom,black,transparent 82%);
+}
+.hero-content,.hero-foot { position:relative; z-index:2; }
+.kicker { font:600 11px "Geist Mono",monospace; letter-spacing:.15em; text-transform:uppercase; color:#DCC79D; }
+h1,h2,h3,h4 { margin:0; }
+.hero h1 { font:400 clamp(55px,7vw,112px)/.88 "Instrument Serif",Georgia,serif; letter-spacing:-.045em; max-width:1000px; margin-top:26px; }
+.hero h1 em { color:#DCC79D; font-style:italic; }
+.hero-sub { max-width:770px; margin-top:28px; color:rgba(255,255,255,.72); font-size:18px; }
+.hero-tags { display:flex; gap:8px; flex-wrap:wrap; margin-top:26px; }
+.tag { padding:7px 10px; border:1px solid rgba(255,255,255,.18); border-radius:999px; font:500 11px "Geist Mono",monospace; background:rgba(255,255,255,.07); }
+.hero-foot { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:44px; }
+.hero-stat { padding:16px 0 0; border-top:1px solid rgba(255,255,255,.18); }
+.hero-stat b { display:block; font:500 13px "Geist Mono",monospace; color:#DCC79D; }
+.hero-stat span { display:block; margin-top:5px; font-size:13px; color:rgba(255,255,255,.7); }
+.section { margin-top:70px; scroll-margin-top:90px; }
+.section-head { display:flex; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:24px; }
+.section-no { font:600 11px "Geist Mono",monospace; letter-spacing:.14em; color:var(--gold); text-transform:uppercase; }
+.section h2 { font:400 clamp(38px,4vw,68px)/.96 "Instrument Serif",serif; letter-spacing:-.035em; max-width:900px; }
+.section-lede { max-width:650px; margin:12px 0 0; color:var(--muted); }
+.grid { display:grid; gap:16px; }
+.grid-2 { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.grid-3 { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.grid-4 { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.card {
+  background:var(--paper); border:1px solid var(--border); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow-sm);
+}
+.card.dark { background:var(--navy); color:var(--white); border-color:transparent; }
+.card h3 { font:500 25px/1.05 "Instrument Serif",serif; letter-spacing:-.02em; margin-bottom:12px; }
+.card p { color:var(--muted); margin:0; }
+.card.dark p { color:rgba(255,255,255,.72); }
+.signal {
+  display:inline-flex; align-items:center; gap:7px; padding:6px 9px; border-radius:999px; font:600 10px "Geist Mono",monospace;
+  letter-spacing:.05em; text-transform:uppercase; margin-bottom:14px; border:1px solid currentColor;
+}
+.signal.red { color:var(--burg); background:color-mix(in srgb,var(--burg) 9%,transparent); }
+.signal.green { color:var(--green); background:color-mix(in srgb,var(--green) 9%,transparent); }
+.signal.amber { color:var(--amber); background:color-mix(in srgb,var(--amber) 10%,transparent); }
+.signal.blue { color:#4B6A91; background:rgba(75,106,145,.08); }
+.metric {
+  padding:28px; border-radius:18px; background:var(--paper); border:1px solid var(--border); min-height:170px;
+  display:flex; flex-direction:column; justify-content:space-between;
+}
+.metric .label { color:var(--muted); font:600 10px "Geist Mono",monospace; letter-spacing:.09em; text-transform:uppercase; }
+.metric .value { font:400 clamp(34px,4vw,58px)/1 "Instrument Serif",serif; letter-spacing:-.04em; margin-top:18px; }
+.metric small { color:var(--muted); }
+.money-flow {
+  padding:34px; border-radius:24px; background:linear-gradient(135deg,var(--navy),#223B60); color:white; overflow:hidden; position:relative;
+}
+.money-flow .big { font:400 clamp(58px,7vw,96px)/.9 "Instrument Serif",serif; letter-spacing:-.05em; }
+.money-flow .sub { color:rgba(255,255,255,.68); margin-top:12px; max-width:720px; }
+.bar { height:11px; background:rgba(255,255,255,.15); border-radius:999px; overflow:hidden; margin-top:30px; }
+.bar > i { display:block; width:86.24%; height:100%; background:linear-gradient(90deg,#DCC79D,#E69A8D); border-radius:inherit; }
+.bar-labels { display:flex; justify-content:space-between; font:500 11px "Geist Mono",monospace; color:rgba(255,255,255,.72); margin-top:8px; }
+.contradiction {
+  display:grid; grid-template-columns:1fr 54px 1fr; gap:18px; align-items:stretch; padding:0; overflow:hidden;
+}
+.claim,.record { padding:24px; }
+.claim { background:color-mix(in srgb,var(--burg) 7%,var(--paper)); }
+.record { background:color-mix(in srgb,var(--green) 7%,var(--paper)); }
+.vs { display:grid; place-items:center; font:700 11px "Geist Mono",monospace; color:var(--muted); border-left:1px solid var(--border); border-right:1px solid var(--border); }
+.quote { font:400 24px/1.25 "Instrument Serif",serif; margin:8px 0 12px; }
+.fact { font:600 10px "Geist Mono",monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+.timeline { position:relative; padding-left:34px; }
+.timeline:before { content:""; position:absolute; left:10px; top:6px; bottom:6px; width:1px; background:var(--border); }
+.t-item { position:relative; padding:0 0 26px 18px; }
+.t-item:before { content:""; position:absolute; left:-29px; top:6px; width:11px; height:11px; border-radius:50%; background:var(--paper); border:3px solid var(--gold); box-shadow:0 0 0 5px var(--bg); }
+.t-item.critical:before { border-color:var(--burg); }
+.t-date { font:600 10px "Geist Mono",monospace; color:var(--muted); letter-spacing:.06em; }
+.t-title { font-weight:700; margin-top:4px; }
+.t-desc { color:var(--muted); margin-top:3px; }
+.audit-table { width:100%; border-collapse:separate; border-spacing:0; overflow:hidden; border:1px solid var(--border); border-radius:18px; background:var(--paper); }
+.audit-table th,.audit-table td { padding:14px 16px; text-align:left; vertical-align:top; border-bottom:1px solid var(--border); font-size:14px; }
+.audit-table th { font:600 10px "Geist Mono",monospace; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); background:var(--paper2); }
+.audit-table tr:last-child td { border-bottom:0; }
+.risk-row { display:grid; grid-template-columns:180px 1fr 90px; gap:14px; align-items:center; margin:14px 0; }
+.risk-track { height:9px; background:var(--paper2); border-radius:999px; overflow:hidden; }
+.risk-track i { display:block; height:100%; border-radius:inherit; background:linear-gradient(90deg,var(--gold),var(--burg)); }
+.risk-row strong { font-size:13px; }
+.risk-row span { text-align:right; font:600 10px "Geist Mono",monospace; color:var(--muted); }
+.callout {
+  border-left:4px solid var(--gold); padding:20px 22px; background:color-mix(in srgb,var(--gold) 8%,var(--paper)); border-radius:0 16px 16px 0;
+}
+.callout.red { border-color:var(--burg); background:color-mix(in srgb,var(--burg) 7%,var(--paper)); }
+.callout h3 { font:500 27px "Instrument Serif",serif; margin-bottom:8px; }
+.checklist { display:grid; gap:8px; }
+.check {
+  display:flex; gap:12px; align-items:flex-start; padding:13px 14px; background:var(--paper); border:1px solid var(--border); border-radius:12px; cursor:pointer;
+}
+.check input { margin-top:4px; accent-color:var(--navy2); }
+.check.done { opacity:.55; }
+.check.done span { text-decoration:line-through; }
+.fee-hero { background:var(--navy); color:var(--white); border-radius:28px; padding:38px; box-shadow:var(--shadow-md); }
+.fee-hero .price { font:400 clamp(60px,7vw,110px)/.88 "Instrument Serif",serif; color:#E0C996; margin:16px 0; letter-spacing:-.05em; }
+.fee-hero p { color:rgba(255,255,255,.72); max-width:770px; }
+.fee-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:18px; }
+.fee-mini { border:1px solid rgba(255,255,255,.14); border-radius:15px; padding:16px; }
+.fee-mini b { display:block; font:500 24px "Instrument Serif",serif; }
+.fee-mini span { color:rgba(255,255,255,.58); font-size:12px; }
+.gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:13px; }
+.evidence-shot { position:relative; padding:0; border:1px solid var(--border); border-radius:16px; overflow:hidden; cursor:zoom-in; background:var(--paper); color:var(--ink); text-align:left; }
+.evidence-shot img { width:100%; height:270px; object-fit:cover; object-position:top; display:block; transition:.25s ease; }
+.evidence-shot:hover img { transform:scale(1.02); }
+.evidence-shot span { display:block; padding:12px 14px; font:600 11px "Geist Mono",monospace; }
+.source-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+.source-link { display:flex; justify-content:space-between; gap:14px; padding:12px 14px; border:1px solid var(--border); border-radius:12px; background:var(--paper); text-decoration:none; font-size:13px; }
+.source-link:hover { border-color:var(--gold); }
+.folder-tree { font:500 12px/1.85 "Geist Mono",monospace; background:var(--navy); color:#DCE5F0; border-radius:18px; padding:22px; overflow:auto; }
+.folder-tree .dim { color:#8393A8; }
+details.appendix { background:var(--paper); border:1px solid var(--border); border-radius:18px; margin:10px 0; overflow:hidden; }
+details.appendix > summary { cursor:pointer; padding:18px 22px; font-weight:700; list-style:none; }
+details.appendix > summary::-webkit-details-marker { display:none; }
+details.appendix > summary:after { content:"＋"; float:right; color:var(--gold); }
+details.appendix[open] > summary:after { content:"－"; }
+.md-body { padding:0 22px 28px; color:var(--ink); }
+.md-body h1,.md-body h2,.md-body h3,.md-body h4 { font-family:"Instrument Serif",serif; letter-spacing:-.02em; margin:34px 0 12px; }
+.md-body h1 { font-size:42px; } .md-body h2 { font-size:34px; } .md-body h3 { font-size:27px; } .md-body h4 { font-size:22px; }
+.md-body p,.md-body li { color:var(--ink); }
+.md-body blockquote { margin:18px 0; padding:14px 18px; border-left:3px solid var(--gold); background:var(--paper2); border-radius:0 12px 12px 0; color:var(--muted); }
+.md-body table { width:100%; border-collapse:collapse; font-size:13px; }
+.md-body th,.md-body td { border:1px solid var(--border); padding:10px; vertical-align:top; }
+.md-body th { background:var(--paper2); }
+.md-body code { font-family:"Geist Mono",monospace; font-size:.9em; }
+.lightbox { position:fixed; inset:0; z-index:100; display:none; align-items:center; justify-content:center; background:rgba(5,10,18,.9); padding:28px; }
+.lightbox.open { display:flex; }
+.lightbox img { max-width:min(900px,92vw); max-height:86vh; border-radius:14px; box-shadow:0 30px 90px rgba(0,0,0,.5); }
+.lightbox button { position:absolute; right:24px; top:20px; border:0; background:transparent; color:white; font-size:34px; cursor:pointer; }
+.lightbox .cap { position:absolute; left:50%; bottom:18px; transform:translateX(-50%); color:white; font:500 12px "Geist Mono",monospace; }
+.floating-search {
+  position:fixed; right:24px; bottom:24px; z-index:50; width:min(360px,calc(100vw - 48px)); background:var(--paper);
+  border:1px solid var(--border); box-shadow:var(--shadow-md); border-radius:15px; padding:10px;
+}
+.floating-search input { width:100%; border:0; outline:0; background:transparent; color:var(--ink); padding:7px 9px; font:500 13px Inter,sans-serif; }
+.search-hit { outline:2px solid var(--gold); outline-offset:3px; }
+.footer { margin-top:80px; padding:34px 0 0; border-top:1px solid var(--border); display:flex; justify-content:space-between; gap:20px; color:var(--muted); font-size:12px; }
+@media(max-width:1050px) {
+  .layout { grid-template-columns:1fr; } .sidebar { display:none; }
+  .hero { padding:42px 30px; min-height:520px; } .hero-foot { grid-template-columns:repeat(2,1fr); }
+  .grid-4,.grid-3,.fee-grid { grid-template-columns:repeat(2,1fr); } .gallery { grid-template-columns:repeat(2,1fr); }
+}
+@media(max-width:680px) {
+  .topbar-inner,.layout { padding-left:16px; padding-right:16px; }
+  .hero { border-radius:20px; padding:34px 22px; } .hero h1 { font-size:58px; }
+  .hero-foot,.grid-2,.grid-3,.grid-4,.fee-grid,.gallery,.source-links { grid-template-columns:1fr; }
+  .section { margin-top:52px; } .section-head { display:block; }
+  .contradiction { grid-template-columns:1fr; } .vs { border:0; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:8px; }
+  .risk-row { grid-template-columns:120px 1fr 65px; } .floating-search { display:none; }
+}
+@media print {
+  @page { size:A4; margin:14mm; }
+  body { background:white; color:#111; }
+  .topbar,.sidebar,.floating-search,.top-actions,.lightbox { display:none !important; }
+  .layout { display:block; max-width:none; padding:0; }
+  .hero { box-shadow:none; min-height:auto; page-break-after:always; border-radius:0; }
+  .section { break-inside:auto; margin-top:30px; }
+  .card,.metric,.fee-hero,.money-flow,details.appendix { box-shadow:none; break-inside:avoid; }
+  details.appendix > .md-body { display:block !important; }
+  details.appendix[open] > summary:after, details.appendix > summary:after { display:none; }
+  a { text-decoration:none; }
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><div class="brand-mark">§</div><span>Dossiê Jurídico · Fábio × Premium</span></div>
+    <div class="top-actions">
+      <button class="icon-btn" onclick="copyProcess()">Copiar processo</button>
+      <button class="icon-btn" onclick="toggleTheme()" aria-label="Alternar tema">◐</button>
+      <button class="icon-btn" onclick="window.print()">Imprimir / PDF</button>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="eyebrow">NAVEGAÇÃO DO DOSSIÊ</div>
+   
