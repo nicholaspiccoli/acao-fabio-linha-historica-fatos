@@ -1,1 +1,626 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>Dossiê Jurídico — Fábio × Premium</title><style>html,body{margin:0;background:#132238;color:#fff;font-family:system-ui,sans-serif}#loading{min-height:100vh;display:grid;place-items:center;text-align:center;padding:24px}small{opacity:.65}</style></head><body><div id="loading"><div><strong>Carregando dossiê jurídico…</strong><br><small>Fábio Regis de Carvalho × Premium</small></div></div><script>(async()=>{try{const files=['/chunks/001.txt','/chunks/002.txt','/chunks/003.txt','/chunks/004.txt','/chunks/005.txt','/chunks/006.txt','/chunks/007.txt'];const parts=await Promise.all(files.map(f=>fetch(f,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(f+' '+r.status);return r.text()})));document.open();document.write(parts.join(''));document.close()}catch(e){document.getElementById('loading').innerHTML='<div><strong>Falha ao carregar o dossiê.</strong><br><small>'+String(e)+'</small></div>'}})();</script></body></html>
+<!doctype html>
+<html lang="pt-BR" data-motion="pending">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="theme-color" content="#0b0d10" />
+  <meta name="description" content="Memorial visual cronológico e probatório — Fábio Regis de Carvalho x Premium. Documento auxiliar à compreensão da petição inicial." />
+  <title>Fábio x Premium — Linha histórica dos fatos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="topbar" aria-label="Navegação do memorial">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">
+      <span class="brand-mark" aria-hidden="true">§</span>
+      <span><b>Memorial probatório</b><small>Fábio x Premium</small></span>
+    </a>
+    <nav class="topnav" aria-label="Atalhos principais">
+      <a href="#linha-do-tempo">Cronologia</a>
+      <a href="#confronto">Confronto</a>
+      <a href="#pedidos">Tutelas</a>
+      <button class="print-btn" type="button" id="printBtn">Imprimir / PDF</button>
+    </nav>
+  </header>
+
+  <aside class="chapter-rail" aria-label="Capítulos do memorial">
+    <div class="rail-label"><span id="chapterIndex">01</span><span id="chapterName">Síntese</span></div>
+    <div class="rail-dots" id="chapterDots"></div>
+  </aside>
+
+  <main id="conteudo">
+    <section class="hero motion-scene" id="inicio" data-chapter="Síntese">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-reveal>Memorial visual auxiliar · fotografia documental até 23/09/2026</p>
+          <h1 data-title-reveal>Do contrato à<br><em>auditoria do processo.</em></h1>
+          <p class="hero-lede" data-reveal>
+            A sequência documental que começa na contratação de 06/07/2026, passa por pagamentos,
+            “retorno judicial”, parecer técnico e judicialização contra a Caixa, e culmina em nova cobrança
+            vinculada a uma audiência não localizada no eproc — até a reassunção do controle processual em 23/09.
+          </p>
+          <div class="hero-actions" data-reveal>
+            <a class="button primary" href="#linha-do-tempo">Percorrer os fatos</a>
+            <a class="button ghost" href="#metodo">Como este memorial lê a prova</a>
+          </div>
+        </div>
+
+        <div class="hero-evidence" data-reveal data-focus>
+          <div class="case-stamp">
+            <span>processo federal relacionado</span>
+            <strong>5015965-98.2026.4.04.7201/SC</strong>
+            <small>Autuação oficial: 10/08/2026 · 11:53:14</small>
+          </div>
+          <div class="hero-stats" aria-label="Indicadores econômicos do caso">
+            <article><span>pago</span><b>R$ 13.313,66</b><small>R$ 3.000,00 + R$ 10.313,66</small></article>
+            <article><span>cobrado, não pago</span><b>R$ 12.836,43</b><small>mensagem de 18/09/2026</small></article>
+            <article><span>exposição documental</span><b>R$ 26.150,09</b><small>pago + cobrança controvertida</small></article>
+            <article><span>intervalo crítico</span><b>11 dias</b><small>“retorno judicial” → autuação real</small></article>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span>role para reconstruir</span><i></i></div>
+    </section>
+
+    <section class="notice-strip" aria-label="Nota de cautela">
+      <strong>Escopo.</strong>
+      <span>Este memorial é uma ferramenta de leitura da prova. Não substitui a petição inicial, não antecipa juízo penal e não converte inconsistências documentais em conclusões sobre dolo. Onde a prova não fecha a resposta, o ponto é marcado como dependente de instrução.</span>
+    </section>
+
+    <section class="scene motion-scene" id="metodo" data-chapter="Método">
+      <div class="section-head">
+        <p class="kicker">01 — método de leitura</p>
+        <h2>Fato, documento, contradição e lacuna <em>não são a mesma coisa.</em></h2>
+        <p>O percurso abaixo separa o que está diretamente documentado do que precisa ser explicado pelas Rés durante a instrução.</p>
+      </div>
+
+      <div class="legend-grid" data-stagger>
+        <article class="legend-card evidence"><span class="legend-dot"></span><b>Documento primário</b><p>Contrato, recibo, processo judicial, export de WhatsApp ou arquivo preservado.</p></article>
+        <article class="legend-card official"><span class="legend-dot"></span><b>Fonte judicial oficial</b><p>Evento, data e conteúdo extraídos do eproc/TRF4.</p></article>
+        <article class="legend-card conflict"><span class="legend-dot"></span><b>Contradição objetiva</b><p>Dois dados incompatíveis entre si, sem necessidade de inferir intenção.</p></article>
+        <article class="legend-card open"><span class="legend-dot"></span><b>Ponto para instrução</b><p>Questão cujo esclarecimento depende de documento, log, CRM, gravação ou explicação das fornecedoras.</p></article>
+      </div>
+
+      <div class="reading-contract" data-reveal>
+        <div class="reading-number">4</div>
+        <div><b>camadas probatórias</b><span>para reduzir a carga cognitiva de uma inicial extensa</span></div>
+        <ol>
+          <li>o que aconteceu;</li>
+          <li>qual documento ancora o fato;</li>
+          <li>com o que ele conflita;</li>
+          <li>qual consequência processual a ação pede.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="scene motion-scene map-scene" id="mapa" data-chapter="Mapa do caso">
+      <div class="section-head compact">
+        <p class="kicker">02 — arquitetura da relação</p>
+        <h2>Um consumidor, dois CNPJs e uma única sequência operacional a ser esclarecida.</h2>
+      </div>
+
+      <div class="network-wrap" data-reveal>
+        <svg class="network" viewBox="0 0 1180 680" role="img" aria-labelledby="networkTitle networkDesc">
+          <title id="networkTitle">Mapa documental das relações do caso</title>
+          <desc id="networkDesc">Fábio no centro, ligado às duas pessoas jurídicas Premium, aos atendentes, ao parecer, ao processo federal e à Caixa. Linhas sólidas indicam vínculos documentados; linha tracejada indica relação que precisa ser esclarecida.</desc>
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" /></marker>
+            <filter id="softGlow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <g class="edges">
+            <path class="edge paid" d="M225,338 C315,250 355,205 455,185" />
+            <path class="edge paid" d="M225,355 C330,410 360,445 455,470" />
+            <path class="edge" d="M590,185 C690,155 735,150 835,155" />
+            <path class="edge" d="M590,470 C690,455 730,445 835,440" />
+            <path class="edge dashed" d="M520,250 C555,315 555,350 520,405" />
+            <path class="edge" d="M935,155 C965,230 965,295 920,350" />
+            <path class="edge" d="M935,440 C970,405 975,390 920,350" />
+            <path class="edge official" d="M920,350 C1020,350 1055,330 1110,300" />
+            <path class="edge official" d="M920,350 C1020,360 1050,390 1105,420" />
+            <path class="edge" d="M225,370 C330,525 610,610 835,510" />
+          </g>
+          <g class="nodes">
+            <g transform="translate(70 285)" class="node focus"><rect width="170" height="112" rx="18"/><text x="22" y="37">FÁBIO</text><text class="sub" x="22" y="62">consumidor</text><text class="sub" x="22" y="84">contratante / autor</text></g>
+            <g transform="translate(420 120)" class="node company"><rect width="210" height="128" rx="18"/><text x="20" y="34">PREMIUM</text><text x="20" y="56">INTELIGÊNCIA</text><text class="sub" x="20" y="82">CNPJ 35.107.774/0001-09</text><text class="sub" x="20" y="103">contrato-base + R$ 3 mil</text></g>
+            <g transform="translate(420 410)" class="node company"><rect width="210" height="128" rx="18"/><text x="20" y="34">PREMIUM</text><text x="20" y="56">SOLUÇÕES</text><text class="sub" x="20" y="82">CNPJ 34.426.414/0001-07</text><text class="sub" x="20" y="103">negociação + R$ 10.313,66</text></g>
+            <g transform="translate(810 100)" class="node actor"><rect width="210" height="112" rx="18"/><text x="18" y="32">ATENDIMENTO</text><text class="sub" x="18" y="57">Renato · Guilherme</text><text class="sub" x="18" y="79">comunicações e oferta</text></g>
+            <g transform="translate(810 385)" class="node actor"><rect width="210" height="112" rx="18"/><text x="18" y="32">COBRANÇA 18/09</text><text class="sub" x="18" y="57">Maurício Ferreira</text><text class="sub" x="18" y="79">“Depto. Jurídico” Premium</text></g>
+            <g transform="translate(825 295)" class="node process"><rect width="190" height="112" rx="18"/><text x="18" y="32">PROCESSO</text><text class="sub" x="18" y="57">5015965-98...</text><text class="sub" x="18" y="79">eproc / TRF4</text></g>
+            <g transform="translate(1020 250)" class="node official"><rect width="140" height="88" rx="18"/><text x="20" y="35">CAIXA</text><text class="sub" x="20" y="59">ré federal</text></g>
+            <g transform="translate(1020 390)" class="node official"><rect width="140" height="88" rx="18"/><text x="20" y="35">EVENTOS</text><text class="sub" x="20" y="59">1 a 16</text></g>
+            <g transform="translate(780 500)" class="node doc"><rect width="220" height="100" rx="18"/><text x="18" y="32">PARECER TÉCNICO</text><text class="sub" x="18" y="57">apresentado como “laudo”</text><text class="sub" x="18" y="79">no atendimento</text></g>
+          </g>
+        </svg>
+        <div class="network-key">
+          <span><i class="solid"></i> vínculo documental</span>
+          <span><i class="money"></i> fluxo financeiro pago</span>
+          <span><i class="dash"></i> relação interna a esclarecer</span>
+        </div>
+      </div>
+
+      <div class="map-note" data-reveal>
+        <b>Ponto estrutural.</b>
+        <p>O instrumento de 06/07 usa a denominação “Premium Soluções Financeiras” com o CNPJ 35.107.774/0001-09; documentos posteriores da mesma cadeia trazem o CNPJ 34.426.414/0001-07. A ação inclui as duas pessoas jurídicas justamente para que a divisão interna de funções, receitas e responsabilidades seja esclarecida sob contraditório.</p>
+      </div>
+    </section>
+
+    <section class="scene motion-scene source-scene" id="contrato-fonte" data-chapter="Contrato-fonte">
+      <div class="split">
+        <div class="section-head sticky-copy">
+          <p class="kicker">03 — a âncora anterior ao conflito</p>
+          <h2>Antes de qualquer “laudo”, havia um <em>contrato-fonte</em>.</h2>
+          <p>O financiamento original da Caixa é a referência primária para testar qualquer cálculo, narrativa técnica ou ação revisional subsequente.</p>
+          <div class="source-pill">Fonte primária · Contrato Caixa</div>
+        </div>
+        <figure class="document-frame evidence-facsimile" data-reveal>
+          <div class="facsimile-paper" role="img" aria-label="Transcrição visual fiel dos parâmetros relevantes do contrato Caixa, com dados pessoais omitidos.">
+            <div class="facsimile-stamp">CONTRATO-FONTE · CAIXA</div>
+            <div class="facsimile-rule"></div>
+            <dl class="facsimile-fields">
+              <div><dt>Sistema de amortização</dt><dd>PRICE</dd></div>
+              <div><dt>Atualização do saldo</dt><dd>TR</dd></div>
+              <div><dt>Taxa efetiva contratada</dt><dd>7,9347% a.a.</dd></div>
+              <div><dt>Prestação inicial</dt><dd>R$ 1.029,26</dd></div>
+              <div><dt>MIP + DFI</dt><dd>R$ 48,11</dd></div>
+              <div><dt>Tarifa de administração</dt><dd>R$ 25,00</dd></div>
+              <div><dt>Encargo mensal inicial</dt><dd>R$ 1.102,37</dd></div>
+              <div><dt>Primeiro vencimento</dt><dd>04/09/2023</dd></div>
+            </dl>
+            <small>Transcrição dos campos relevantes do documento original. Dados pessoais e elementos não necessários ao cotejo foram omitidos.</small>
+          </div>
+          <figcaption><span>DOCUMENTO 01</span>Contrato-fonte · parâmetros de B8 a B12</figcaption>
+        </figure>
+      </div>
+
+      <div class="parameter-grid" data-stagger>
+        <article><span>sistema</span><b>PRICE</b></article>
+        <article><span>saldo devedor</span><b>TR</b></article>
+        <article><span>taxa efetiva</span><b>7,9347% a.a.</b></article>
+        <article><span>prestação inicial</span><b>R$ 1.029,26</b></article>
+        <article><span>MIP + DFI</span><b>R$ 48,11</b></article>
+        <article><span>tarifa mensal</span><b>R$ 25,00</b></article>
+        <article><span>encargo total inicial</span><b>R$ 1.102,37</b></article>
+        <article><span>1º vencimento</span><b>04/09/2023</b></article>
+      </div>
+    </section>
+
+    <section class="timeline-shell motion-scene" id="linha-do-tempo" data-chapter="Cronologia">
+      <div class="timeline-intro">
+        <p class="kicker">04 — linha histórica</p>
+        <h2>78 dias que mudaram a natureza do problema.</h2>
+        <p>O que começou como contratação para revisar um financiamento tornou-se uma controvérsia sobre a própria prestação do serviço, os dados técnicos empregados, a condução do processo e novas cobranças.</p>
+      </div>
+
+      <div class="timeline" aria-label="Linha do tempo de 6 de julho a 23 de setembro de 2026">
+        <article class="time-item" data-date="06/07" id="t-0607">
+          <div class="time-pin"><span>06</span><small>JUL</small></div>
+          <div class="time-card">
+            <div class="time-meta"><span class="badge evidence">documento primário</span><span>contratação</span></div>
+            <h3>O contrato-base e o primeiro pagamento.</h3>
+            <p>Fábio adere ao pacote documental que descreve serviços de assessoria jurídica, negociações judiciais/extrajudiciais e ajuizamento/acompanhamento de ação revisional. O recibo do mesmo conjunto registra <b>R$ 3.000,00</b>.</p>
+            <div class="mini-facts">
+              <div><small>denominação no instrumento</small><b>“Premium Soluções Financeiras”</b></div>
+              <div><small>CNPJ do instrumento</small><b>35.107.774/0001-09</b></div>
+              <div><small>valor pago</small><b>R$ 3.000,00</b></div>
+            </div>
+            <div class="evidence-pair text-evidence">
+              <blockquote class="doc-quote"><span>CONTRATO · CLÁUSULAS 1–2</span><p>“assessoria jurídica” + “ajuizamento e acompanhamento” da ação revisional.</p></blockquote>
+              <blockquote class="doc-quote"><span>CONTRATO · CLÁUSULA 17</span><p>Para ingresso ou defesa judicial, as partes deveriam assinar aditivo para formalizar a atuação dos profissionais habilitados.</p></blockquote>
+            </div>
+            <aside class="analysis-note open"><b>Questão deixada aberta pela inicial</b><p>Nenhum aditivo correspondente foi localizado no acervo auditado ou no Evento 1. A ação não afirma inexistência absoluta: pede sua exibição, caso tenha sido celebrado.</p></aside>
+          </div>
+        </article>
+
+        <article class="time-item" data-date="22/07" id="t-2207">
+          <div class="time-pin"><span>22</span><small>JUL</small></div>
+          <div class="time-card">
+            <div class="time-meta"><span class="badge conflict">contradição objetiva</span><span>negociação / documentos</span></div>
+            <h3>Surge a cifra de “141 parcelas pagas”.</h3>
+            <p>Guilherme, apresentado como integrante do “Setor Jurídico – Premium Soluções”, envia modelos e solicita o contrato de financiamento. No mesmo dia, um documento intitulado “Negociação Extrajudicial”, sob o CNPJ 34.426.414/0001-07, afirma ter havido mediação junto à Caixa.</p>
+            <blockquote class="doc-quote"><span>NEGOCIAÇÃO EXTRAJUDICIAL · 22/07/2026</span><p>“Parcelas Pagas: 141”</p></blockquote>
+            <div class="math-check">
+              <div><span>1º vencimento no contrato-fonte</span><b>04/09/2023</b></div>
+              <div class="math-arrow" aria-hidden="true">→</div>
+              <div><span>data do documento</span><b>22/07/2026</b></div>
+              <div class="math-equals" aria-hidden="true">=</div>
+              <div class="math-result"><span>vencimentos transcorridos</span><b>35</b><small>não 141</small></div>
+            </div>
+            <p class="micro">A divergência é cronológica e aritmética; não exige perícia para ser percebida. O ponto relevante para a instrução é descobrir qual base de dados gerou o número 141.</p>
+          </div>
+        </article>
+
+        <article class="time-item" data-date="27–28/07" id="t-2728">
+          <div class="time-pin"><span>27–28</span><small>JUL</small></div>
+          <div class="time-card">
+            <div class="time-meta"><span class="badge evidence">fluxo documental</span><span>documentos devolvidos e contrato-fonte entregue</span></div>
+            <h3>A cadeia recebe a documentação — inclusive o contrato original da Caixa.</h3>
+            <div class="message-stack">
+              <blockquote><time>27/07</time><p>“Preenchidos e assinados. Verifica se tá tudo certo.”</p><cite>Fábio · export de WhatsApp</cite></blockquote>
+              <blockquote><time>28/07</time><p>“Segue o meu contrato com a Caixa que era a documentação minha que faltava.”</p><cite>Fábio · export de WhatsApp</cite></blockquote>
+              <blockquote class="reply"><time>28/07</time><p>“Já anexei, vamos aguardar ok”</p><cite>Guilherme · Premium</cite></blockquote>
+            </div>
+            <aside class="analysis-note evidence"><b>Consequência probatória</b><p>O contrato-fonte estava entregue à estrutura de atendimento antes da elaboração do parecer datado de 10/08 e antes da propositura da ação federal.</p></aside>
+          </div>
+        </article>
+
+        <article class="time-item focal" data-date="30/07" id="t-3007">
+          <div class="time-pin hot"><span>30</span><small>JUL</small></div>
+          <div class="time-card">
+            <div class="time-meta"><span class="badge conflict">marco crítico</span><span>“retorno judicial” + venda do “laudo”</span></div>
+            <h3>Onze dias antes da autuação, o atendimento informa “retorno judicial”.</h3>
+            <blockquote class="message-feature"><span>10:59 · Guilherme</span><p>“Tive retorno judicial referente a sua demanda!”</p></blockquote>
+            <div class="date-gap" aria-label="Intervalo entre mensagem de retorno judicial e autuação oficial">
+              <div><span>30 JUL</span><b>“retorno judicial”</b><small>WhatsApp</small></div>
+              <div class="gap-line"><i></i><strong>11 dias</strong><i></i></div>
+              <div><span>10 AGO</span><b>autuação oficial</b><small>11:53:14 · eproc</small></div>
+            </div>
+
+            <div class="offer-grid">
+              <article><small>valor alegadamente restituível</small><b>R$ 56.546,64</b><span>mensagem de 15:59</span></article>
+              <article><small>preço informado para o “laudo”</small><b>R$ 8.523,69</b><span>mensagem de 15:59</span></article>
+              <article class="warn"><small>valor do recibo emitido</small><b>R$ 10.313,66</b><span>mesmo dia · CNPJ 34...</span></article>
+              <article class="delta"><small>diferença sem composição localizada</small><b>R$ 1.789,97</b><span>ponto para explicação</span></article>
+            </div>
+
+            <div class="message-stack two-col">
+              <blockquote><time>16:10</time><p>“E não será cobrado mais nada né?”</p><cite>Fábio</cite></blockquote>
+              <blockquote class="reply"><time>16:10</time><p>“Não não, pode ficar tranquilo”</p><cite>Guilherme · Premium</cite></blockquote>
+            </div>
+
+            <figure class="document-frame wide evidence-facsimile">
+              <div class="facsimile-paper receipt-facsimile">
+                <div class="facsimile-stamp">RECIBO DE PAGAMENTO · 30/07/2026</div>
+                <p class="receipt-amount">R$ 10.313,66</p>
+                <p class="receipt-copy">“Referente ao Procedimento de Laudo Pericial junto aos órgãos competentes.”</p>
+                <div class="facsimile-rule"></div>
+                <small>Premium Soluções Financeiras · CNPJ 34.426.414/0001-07 · transcrição do recibo assinado; dados pessoais do consumidor omitidos.</small>
+              </div>
+              <figcaption><span>DOCUMENTO 04</span>Recibo · R$ 10.313,66 · “Procedimento de Laudo Pericial”</figcaption>
+            </figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="scene motion-scene compare-scene" id="parecer" data-chapter="Parecer x fonte">
+      <div class="section-head">
+        <p class="kicker">05 — teste de aderência técnica</p>
+        <h2>O parecer levado ao processo não replica <em>variáveis elementares</em> do contrato-fonte.</h2>
+        <p>Não se trata de julgar, aqui, toda a tese bancária. O ponto é mais simples: o documento usado para sustentar a ação federal parte de parâmetros diferentes do contrato que deveria analisar.</p>
+      </div>
+
+      <div class="compare-table-wrap" data-reveal>
+        <table class="compare-table">
+          <thead><tr><th>Variável</th><th>Contrato-fonte Caixa</th><th>Parecer juntado</th><th>Leitura</th></tr></thead>
+          <tbody>
+            <tr><td>Início / referência temporal</td><td><b>1º venc. 04/09/2023</b></td><td><b>início 04/02/2024</b></td><td><span class="status conflict">diverge</span></td></tr>
+            <tr><td>1º vencimento</td><td><b>04/09/2023</b></td><td><b>04/03/2024</b></td><td><span class="status conflict">diverge</span></td></tr>
+            <tr><td>Indexador do saldo</td><td><b>TR</b></td><td><b>IPCA</b></td><td><span class="status conflict">diverge</span></td></tr>
+            <tr><td>Taxa efetiva anual</td><td><b>7,9347%</b></td><td><b>8,0000%</b></td><td><span class="status conflict">diverge</span></td></tr>
+            <tr><td>Prestação inicial</td><td><b>R$ 1.029,26</b></td><td><b>R$ 1.143,97</b></td><td><span class="status conflict">diverge</span></td></tr>
+            <tr><td>Seguro mensal</td><td><b>R$ 48,11</b></td><td><b>R$ 47,16</b></td><td><span class="status conflict">diverge</span></td></tr>
+            <tr><td>Prazo</td><td><b>420 meses</b></td><td><b>420 meses</b></td><td><span class="status match">coincide</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="internal-conflicts" data-stagger>
+        <article><span>página 1 do parecer</span><b>Seguro: R$ 19.807,20</b></article>
+        <article><span>página seguinte</span><b>Seguro: R$ 63.500,80</b></article>
+        <article><span>projeção posterior</span><b>R$ 47,16 × 420 = R$ 19.807,20</b></article>
+        <article><span>identificação</span><b>“consumidora” + imóvel/matrícula em branco</b></article>
+      </div>
+
+      <div class="causal-card" data-reveal>
+        <span class="causal-kicker">efeito processual concreto</span>
+        <div class="causal-flow">
+          <div><b>dados do parecer</b><small>R$ 25,00 + R$ 47,16</small></div><i>→</i>
+          <div><b>projeção por 420 meses</b><small>R$ 72,16 × 420</small></div><i>→</i>
+          <div class="hot"><b>valor da causa</b><small>R$ 30.307,20</small></div>
+        </div>
+        <p>As variáveis divergentes não ficaram isoladas em um documento preparatório: foram transpostas à narrativa e ao conteúdo econômico da ação federal.</p>
+      </div>
+    </section>
+
+    <section class="scene motion-scene judicial-scene" id="judicializacao" data-chapter="Judicialização">
+      <div class="section-head compact">
+        <p class="kicker">06 — 10 de agosto</p>
+        <h2>O processo nasce. É aqui que a comunicação comercial pode ser confrontada com uma fonte externa.</h2>
+      </div>
+
+      <div class="official-anchor" data-reveal>
+        <div class="anchor-number">10.08.2026<small>11:53:14</small></div>
+        <div><span>AUTUAÇÃO OFICIAL</span><b>Processo nº 5015965-98.2026.4.04.7201/SC</b><p>Distribuição registrada no eproc — onze dias depois da mensagem de “retorno judicial”.</p></div>
+      </div>
+
+      <div class="judicial-grid" data-stagger>
+        <article class="fact-card">
+          <span class="badge official">Evento 1</span><h3>A inicial afirma “procuração inclusa”.</h3>
+          <p>A listagem documental auditada do Evento 1 contém INIC1, RG3, END4, DECLPOBRE5 e PARECER6; o instrumento de mandato anunciado não foi localizado nesse evento.</p>
+          <small>O memorial não conclui inexistência fora dos autos; registra a ausência no Evento 1 auditado.</small>
+        </article>
+        <article class="fact-card">
+          <span class="badge conflict">Fonte ausente</span><h3>O contrato bancário não acompanha o Evento 1.</h3>
+          <p>O contrato-fonte que a Premium havia recebido em 28/07 não aparece entre os documentos do Evento 1, embora o objeto fosse revisar justamente esse financiamento.</p>
+        </article>
+        <article class="fact-card">
+          <span class="badge evidence">Parecer</span><h3>O documento particular é juntado no mesmo dia.</h3>
+          <p>O parecer está datado de 10/08/2026 e carrega as variáveis que depois estruturam a inicial e o valor da causa.</p>
+        </article>
+      </div>
+
+      <div class="event-film" data-reveal>
+        <div class="film-title"><b>O que o eproc registra depois da distribuição</b><span>10/08 → 23/09</span></div>
+        <div class="event-track">
+          <div><time>10/08</time><b>Evento 3</b><span>Juízo suscita competência do JEF</span></div>
+          <div><time>25/08</time><b>Evento 7</b><span>Manifestação concorda com JEF e “ratifica” a inicial</span></div>
+          <div><time>26/08</time><b>Evento 10</b><span>Competência absoluta do JEF reconhecida</span></div>
+          <div><time>27/08</time><b>Eventos 11–12</b><span>Classe alterada; citação da Caixa expedida</span></div>
+          <div><time>01/09</time><b>Evento 14</b><span>Citação eletrônica confirmada</span></div>
+          <div><time>14/09</time><b>Evento 15</b><span>Suspensão de prazo da Caixa</span></div>
+          <div class="current"><time>23/09</time><b>Evento 16</b><span>Substituição, revogação e nova representação</span></div>
+        </div>
+      </div>
+
+      <figure class="document-frame wide event-doc evidence-facsimile" data-reveal>
+        <div class="facsimile-paper eproc-facsimile">
+          <div class="facsimile-stamp">EPROC · LISTAGEM OFICIAL DE EVENTOS</div>
+          <div class="eproc-mini-list">
+            <span><b>1</b> 10/08 · distribuído por sorteio</span>
+            <span><b>7</b> 25/08 · petição — ratificação da inicial</span>
+            <span><b>10</b> 26/08 · despacho sobre JEF</span>
+            <span><b>12</b> 27/08 · citação eletrônica expedida</span>
+            <span><b>14</b> 01/09 · citação confirmada</span>
+            <span><b>15</b> 14/09 · suspensão de prazo</span>
+            <span><b>16</b> 23/09 · nova representação processual</span>
+          </div>
+          <small>No snapshot oficial auditado até 23/09/2026, não consta evento de designação de audiência de conciliação.</small>
+        </div>
+        <figcaption><span>DOCUMENTO 05 · FONTE OFICIAL</span>Listagem dos Eventos · nenhum ato de designação de audiência até 23/09</figcaption>
+      </figure>
+    </section>
+
+    <section class="confront-section motion-scene" id="confronto" data-chapter="Confronto 18/09">
+      <div class="confront-sticky">
+        <div class="section-head inverted">
+          <p class="kicker">07 — 18 de setembro</p>
+          <h2>Duas versões do mesmo processo,<br><em>lado a lado.</em></h2>
+          <p>A mensagem recebida pelo consumidor pode ser testada contra o histórico oficial do eproc existente na mesma janela temporal.</p>
+        </div>
+
+        <div class="confront-grid">
+          <article class="message-panel" data-phase-in>
+            <header><span>COMUNICAÇÃO RECEBIDA</span><b>15:23 · WhatsApp</b></header>
+            <div class="chat-bubble"><small>Maurício Ferreira · “Departamento Jurídico da Premium Soluções”</small><p>“O processo está em <mark>fase de finalização</mark>. Foi designada a <mark>audiência de conciliação virtual</mark>...”</p></div>
+            <div class="charge-lines">
+              <div><span>Estruturação e agendamento</span><b>R$ 3.830,31</b></div>
+              <div><span>Honorários do conciliador</span><b>R$ 1.516,47</b></div>
+              <div><span>Taxa administrativa</span><b>R$ 3.538,53</b></div>
+              <div><span>Despesas administrativas</span><b>R$ 3.951,12</b></div>
+              <div class="total"><span>TOTAL</span><b>R$ 12.836,43</b></div>
+            </div>
+            <div class="date-anomaly"><span>prazo indicado na mensagem</span><b>18/08/2026</b><small>1 mês antes da própria mensagem de 18/09</small></div>
+          </article>
+
+          <div class="versus" aria-hidden="true"><span>×</span></div>
+
+          <article class="record-panel" data-phase-in>
+            <header><span>FONTE JUDICIAL</span><b>eproc · fotografia até 23/09</b></header>
+            <div class="record-state">
+              <strong>0</strong><span>eventos de designação<br>de audiência localizados</span>
+            </div>
+            <ul>
+              <li><b>26/08</b> decisão sobre competência</li>
+              <li><b>27/08</b> citação da Caixa expedida</li>
+              <li><b>01/09</b> citação confirmada</li>
+              <li><b>14/09</b> prazo da Caixa suspenso</li>
+              <li><b>23/09</b> nova representação processual</li>
+            </ul>
+            <div class="record-conclusion"><span>não localizado</span><b>audiência de conciliação designada</b></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene motion-scene" id="pressao" data-chapter="Pressão comercial">
+      <div class="section-head">
+        <p class="kicker">08 — 18 a 22 de setembro</p>
+        <h2>A cobrança não é paga. A tentativa de viabilizar o “aporte” continua.</h2>
+      </div>
+
+      <div class="refusal-grid" data-stagger>
+        <blockquote class="large-quote"><span>18/09 · Fábio</span><p>“Não vou poder pagar, infelizmente não posso.”</p></blockquote>
+        <blockquote class="large-quote"><span>18/09 · Fábio</span><p>“E o Guilherme tinha me falado que não iria ser cobrado mais nada.”</p></blockquote>
+        <blockquote class="large-quote alert"><span>22/09 · transcrição de áudio</span><p>“...possibilidades do aporte ser realizado de forma dividida, inclusive em duas ou mais bandeiras distintas...”</p></blockquote>
+      </div>
+
+      <div class="evidence-boundary" data-reveal>
+        <b>Limite de afirmação adotado na inicial</b>
+        <p>O material de 22/09 é utilizado como prova da continuidade da pressão comercial pela estrutura Premium. Quando a cadeia técnica não individualiza com segurança o emissor de determinado áudio, o memorial não amplia a atribuição pessoal além do que o arquivo permite.</p>
+      </div>
+    </section>
+
+    <section class="takeover-section motion-scene" id="takeover" data-chapter="23/09 · Takeover">
+      <div class="takeover-inner">
+        <div class="section-head inverted compact">
+          <p class="kicker">09 — 23 de setembro</p>
+          <h2>O consumidor reassume o controle do processo.</h2>
+          <p>O novo patrono acessa a íntegra atualizada, confronta as comunicações com o eproc e inicia auditoria técnica da contratação, do parecer e da cadeia documental.</p>
+        </div>
+
+        <div class="takeover-sequence" data-stagger>
+          <article><span>1</span><b>Acesso à íntegra atualizada</b><p>Verificação do histórico oficial do eproc.</p></article>
+          <article><span>2</span><b>Revogação expressa</b><p>Poderes anteriormente atribuídos aos quatro advogados vinculados à causa são revogados.</p></article>
+          <article><span>3</span><b>Nova constituição</b><p>Aldryn Amaral de Souza, OAB/AM 9.129, passa a representar Fábio.</p></article>
+          <article><span>4</span><b>Auditoria adversarial</b><p>Contrato Caixa × contrato Premium × parecer × processo × mensagens × pagamentos.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene motion-scene money-scene" id="fluxo-financeiro" data-chapter="Fluxo financeiro">
+      <div class="section-head">
+        <p class="kicker">10 — fluxo econômico</p>
+        <h2>Pago, exigido e pedido em restituição devem permanecer <em>contabilmente separados.</em></h2>
+      </div>
+
+      <div class="money-flow" data-reveal aria-label="Fluxo dos valores do caso">
+        <div class="money-source"><span>FÁBIO</span><b>consumidor</b></div>
+        <div class="money-lines">
+          <div class="money-row paid"><div class="bar" style="--v:.23"></div><span>06/07 · contrato-base</span><b>R$ 3.000,00</b><small>pago · CNPJ 35...</small></div>
+          <div class="money-row paid"><div class="bar" style="--v:.80"></div><span>30/07 · “laudo”</span><b>R$ 10.313,66</b><small>pago · CNPJ 34...</small></div>
+          <div class="money-row demanded"><div class="bar" style="--v:1"></div><span>18/09 · “audiência”</span><b>R$ 12.836,43</b><small>exigido · não pago</small></div>
+        </div>
+      </div>
+
+      <div class="money-kpis" data-stagger>
+        <article><span>desembolso comprovado</span><b>R$ 13.313,66</b><small>não confundir com a cobrança de setembro</small></article>
+        <article><span>exposição documental total</span><b>R$ 26.150,09</b><small>pagamentos + crédito controvertido</small></article>
+        <article><span>repetição em dobro pedida</span><b>R$ 26.627,32</b><small>sobre os R$ 13.313,66 pagos</small></article>
+      </div>
+    </section>
+
+    <section class="scene motion-scene ledger-scene" id="matriz" data-chapter="Matriz probatória">
+      <div class="section-head compact">
+        <p class="kicker">11 — ledger de inconsistências</p>
+        <h2>O núcleo do caso, sem adjetivos.</h2>
+        <p>Use os filtros para isolar fatos, contradições objetivas e questões que exigem resposta documental das Rés.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filtrar matriz probatória">
+        <button type="button" class="filter active" data-filter="all">Todos</button>
+        <button type="button" class="filter" data-filter="fact">Fatos documentados</button>
+        <button type="button" class="filter" data-filter="conflict">Contradições</button>
+        <button type="button" class="filter" data-filter="open">Instrução</button>
+      </div>
+
+      <div class="ledger" id="ledger">
+        <article data-kind="conflict"><header><span>01</span><b>141 parcelas × 35 vencimentos</b><em>contradição objetiva</em></header><p>Documento de 22/07 declara 141 parcelas pagas; o calendário do contrato-fonte permitia apenas 35 vencimentos mensais até aquela data.</p></article>
+        <article data-kind="conflict"><header><span>02</span><b>“Retorno judicial” × autuação 11 dias depois</b><em>contradição temporal</em></header><p>A mensagem de 30/07 precede a autuação oficial de 10/08.</p></article>
+        <article data-kind="conflict"><header><span>03</span><b>R$ 8.523,69 × recibo de R$ 10.313,66</b><em>diferença financeira</em></header><p>O preço comunicado e o valor documentalmente recebido no mesmo dia diferem em R$ 1.789,97.</p></article>
+        <article data-kind="fact"><header><span>04</span><b>Contrato-fonte entregue em 28/07</b><em>fato documentado</em></header><p>O export registra envio do “Contrato da Caixa.pdf” e confirmação de que foi anexado.</p></article>
+        <article data-kind="conflict"><header><span>05</span><b>Contrato-fonte × parecer</b><em>múltiplas variáveis</em></header><p>TR/IPCA; 7,9347%/8%; R$ 1.029,26/R$ 1.143,97; R$ 48,11/R$ 47,16; datas de primeiro vencimento divergentes.</p></article>
+        <article data-kind="conflict"><header><span>06</span><b>R$ 19.807,20 × R$ 63.500,80</b><em>contradição interna</em></header><p>O próprio parecer apresenta totais incompatíveis para o seguro.</p></article>
+        <article data-kind="fact"><header><span>07</span><b>“procuração inclusa” × Evento 1 auditado</b><em>ausência no evento</em></header><p>A exordial anuncia procuração; a relação documental do Evento 1 auditado não contém o instrumento.</p></article>
+        <article data-kind="open"><header><span>08</span><b>Aditivo da cláusula 17</b><em>exibição requerida</em></header><p>Não localizado no acervo auditado nem no Evento 1; deve ser apresentado se efetivamente celebrado.</p></article>
+        <article data-kind="conflict"><header><span>09</span><b>“Audiência designada” × histórico oficial</b><em>confronto externo</em></header><p>Mensagem de 18/09 afirma audiência; o eproc atualizado até 23/09 não registra ato de designação.</p></article>
+        <article data-kind="conflict"><header><span>10</span><b>Prazo 18/08 em mensagem de 18/09</b><em>inconsistência interna</em></header><p>O próprio texto fixa data-limite um mês anterior à comunicação.</p></article>
+        <article data-kind="open"><header><span>11</span><b>Origem dos R$ 12.836,43</b><em>composição e autorização</em></header><p>A ação pede documentos que demonstrem causa, beneficiários, orçamento, autorização e suporte do alegado ato processual.</p></article>
+        <article data-kind="open"><header><span>12</span><b>Relação entre os dois CNPJs</b><em>estrutura operacional</em></header><p>Contrato-base e etapas posteriores apontam pessoas jurídicas diferentes dentro do mesmo itinerário comercial.</p></article>
+      </div>
+    </section>
+
+    <section class="cause-section motion-scene" id="causa" data-chapter="Por que a ação">
+      <div class="cause-inner">
+        <div class="section-head inverted">
+          <p class="kicker">12 — causa da nova demanda</p>
+          <h2>Por que o conflito deixou de ser apenas “revisar a Caixa” e passou a exigir uma ação contra a própria cadeia Premium?</h2>
+        </div>
+
+        <div class="cause-chain" data-stagger>
+          <article><span>01</span><b>Contratação remunerada</b><p>Serviço técnico/jurídico é ofertado e pago.</p></article>
+          <i>→</i>
+          <article><span>02</span><b>Prestação com inconsistências objetivas</b><p>Dados técnicos, valores, documentos e cronologia deixam de coincidir.</p></article>
+          <i>→</i>
+          <article><span>03</span><b>Judicialização em nome do consumidor</b><p>Os dados do parecer chegam à petição e ao valor da causa.</p></article>
+          <i>→</i>
+          <article><span>04</span><b>Nova cobrança baseada em ato não localizado</b><p>R$ 12.836,43 vinculados à suposta audiência.</p></article>
+          <i>→</i>
+          <article><span>05</span><b>Ruptura de confiança + takeover</b><p>Revogação, nova representação e auditoria técnica.</p></article>
+        </div>
+
+        <div class="legal-object" data-reveal>
+          <span>AÇÃO ORA PROPOSTA</span>
+          <h3>nulidade do negócio jurídico <em>ou</em> resolução contratual subsidiária</h3>
+          <p>cumulada com restituição de valores, declaração de inexigibilidade, obrigação de não fazer, exibição/preservação de documentos, danos materiais e morais e tutela de urgência.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene motion-scene remedies-scene" id="pedidos" data-chapter="Tutelas pedidas">
+      <div class="section-head">
+        <p class="kicker">13 — o que se pede ao Juízo</p>
+        <h2>A resposta processual foi desenhada para <em>conter risco, preservar prova e recompor o patrimônio.</em></h2>
+      </div>
+
+      <div class="remedy-columns">
+        <div class="remedy-col urgency" data-reveal>
+          <header><span>AGORA</span><h3>Tutela de urgência</h3></header>
+          <ol>
+            <li><b>Suspender</b> a exigibilidade dos R$ 12.836,43 e encargos.</li>
+            <li><b>Proibir</b> cobrança, protesto, negativação, cessão, endosso ou circulação do crédito controvertido.</li>
+            <li><b>Impedir</b> nova atuação em nome de Fábio perante Caixa, processo ou terceiros sem autorização específica.</li>
+            <li><b>Preservar</b> registros eletrônicos contra exclusão, sobrescrita ou descarte.</li>
+            <li><b>Exibir</b> núcleos documentais delimitados, com metadados quando disponíveis.</li>
+            <li><b>Aplicar</b> medidas coercitivas adequadas em caso de descumprimento.</li>
+          </ol>
+        </div>
+        <div class="remedy-col merits" data-reveal>
+          <header><span>AO FINAL</span><h3>Mérito</h3></header>
+          <ol>
+            <li>Reconhecer a <b>nulidade absoluta</b> dos negócios impugnados ou, subsidiariamente, <b>resolver</b> a relação por inadimplemento qualitativo.</li>
+            <li>Declarar <b>inexigíveis R$ 12.836,43</b>.</li>
+            <li>Restituir os <b>R$ 13.313,66</b> pagos, preferencialmente em dobro nos limites legais, ou subsidiariamente de forma simples.</li>
+            <li>Ressarcir danos materiais adicionais que sejam comprovados, sem bis in idem.</li>
+            <li>Condenar solidariamente as Rés em <b>R$ 50.000,00</b> de danos morais, sujeito ao arbitramento judicial.</li>
+            <li>Tornar definitivas as obrigações de não fazer, preservar e exibir os registros individualizados.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="cause-value" data-reveal>
+        <div><span>repetição em dobro</span><b>R$ 26.627,32</b></div>
+        <i>+</i>
+        <div><span>inexigibilidade</span><b>R$ 12.836,43</b></div>
+        <i>+</i>
+        <div><span>dano moral</span><b>R$ 50.000,00</b></div>
+        <i>=</i>
+        <div class="sum"><span>valor da causa</span><b>R$ 89.463,75</b></div>
+      </div>
+    </section>
+
+    <section class="scene motion-scene custody-scene" id="custodia" data-chapter="Prova digital">
+      <div class="section-head compact">
+        <p class="kicker">14 — rastreabilidade</p>
+        <h2>O memorial é uma camada de leitura. A prova permanece nos arquivos-fonte.</h2>
+      </div>
+
+      <div class="custody-grid" data-stagger>
+        <article><span>01</span><b>Processo oficial</b><p>Íntegra do eproc e listagem de eventos, incluindo atualização até o Evento 16.</p></article>
+        <article><span>02</span><b>Contratos-fonte</b><p>Financiamento Caixa e contratação Premium preservados no acervo.</p></article>
+        <article><span>03</span><b>Exports de WhatsApp</b><p>Conversas separadas por interlocutor, com arquivos originais e transcrições.</p></article>
+        <article><span>04</span><b>E-mails canônicos</b><p>Arquivos .eml com hashes SHA-256 registrados em manifesto de intake.</p></article>
+        <article><span>05</span><b>Pagamentos</b><p>Recibos e comprovantes preservados sem converter cobrança em pagamento.</p></article>
+        <article><span>06</span><b>Duplicatas controladas</b><p>O manifesto registra duplicatas byte-idênticas e preservação do pacote ZIP original.</p></article>
+      </div>
+
+      <div class="privacy-note" data-reveal>
+        <b>Privacidade deste site público</b>
+        <p>Os recortes visuais publicados aqui foram limitados ao necessário para compreensão do caso. CPF, RG, endereço, documentos de identidade e outros dados pessoais desnecessários foram omitidos do memorial. Os originais íntegros permanecem no acervo probatório.</p>
+      </div>
+    </section>
+
+    <section class="closing motion-scene" id="fechamento" data-chapter="Síntese final">
+      <div class="closing-number" aria-hidden="true">23.09</div>
+      <div class="closing-copy">
+        <p class="kicker">15 — conclusão visual</p>
+        <h2>A nova ação não nasce de uma única cobrança.</h2>
+        <p>Ela nasce da <b>cumulação documentada</b> de divergências contratuais, técnicas, financeiras e processuais: dados que não fecham com o contrato-fonte; preço informado que não fecha com o recibo; informação de “retorno judicial” anterior à autuação; peça processual que não traz, no Evento 1 auditado, documentos anunciados ou esperados; e cobrança posterior vinculada a audiência não localizada no histórico oficial.</p>
+        <p>O que se pede ao Judiciário é a reconstrução probatória completa dessa cadeia, com contenção imediata da cobrança controvertida e preservação dos registros que só as Rés detêm.</p>
+        <a class="button primary" href="#inicio">Voltar ao início</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><b>Memorial visual · Fábio Regis de Carvalho x Premium</b><span>Documento auxiliar à leitura da petição inicial · snapshot probatório até 23/09/2026</span></div>
+    <div class="footer-meta"><span>sem indexação</span><span>sem coleta de dados</span><span>sem analytics</span></div>
+  </footer>
+
+  <noscript><style>[data-reveal],[data-title-reveal],[data-phase-in]{opacity:1!important;transform:none!important;filter:none!important;clip-path:none!important}</style></noscript>
+  <script src="motion.js" defer></script>
+</body>
+</html>
